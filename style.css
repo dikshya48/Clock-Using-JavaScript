@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .clock{
+    height: 10rem;
+    width: 10rem;
+    border: white 4px solid;
+    border-radius: 50%;
+    position: relative;
+}
+
+.clock .hand{
+    width:45%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left:5%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    /* transition: all 0.05s ease-in-out; */
+    
+
+}
